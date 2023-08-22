@@ -19725,3 +19725,28 @@ section#allproducts {
     text-decoration: none;
     cursor: pointer;
 }
+
+.intro-slide1 figure{
+    background-image: url('/images/home/Computer\ Factory\ WEB\ Gif.gif');
+    background-size: cover;
+    min-height: 43vw;
+    height: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    .intro-slide1 figure{
+        background-image: url('/images/home/mobile\ gif.gif');
+        background-size: cover;
+        min-height: 140vw;
+        height: 100%;
+    }
+
+    .service-list-section {
+        z-index: 3;
+        margin-top: -40px;
+    }
+
+    .close {
+        right: -30px;
+    }
+}

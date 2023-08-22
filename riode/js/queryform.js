@@ -17,7 +17,7 @@ function submitquery() {
             phone: mobile,
             product: product,
             quantity: productquantity,
-            mailto: "fazil.noor@geonix.in",
+            mailto: "fazil.noor@geonix.in, contact@computerfactory.in, praveen.geonix@gmail.com",
             formname: "computer factory",
         })
         .then(function() {
